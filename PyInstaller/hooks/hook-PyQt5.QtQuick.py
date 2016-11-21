@@ -24,11 +24,13 @@ from PyInstaller.utils.hooks import (
 # TODO: we should parse the Qml files to see what we need to import.
 dirs = ['Qt',
         #'QtAudioEngine',
-        #'QtGraphicalEffects',
-        #'QtMultiMedia',
+        'QtGraphicalEffects',
+        'QtMultiMedia',
         'QtQml',
         'QtQuick',
         'QtQuick.2',
+        'QtWebEngine',
+        'QtWebSockets',
         #'QtSensors',
         #'QtTest'
         ]
